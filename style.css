@@ -130,7 +130,7 @@ section{
 }
 
 .home .slide{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-size: cover !important;
     background-position: center !important;
@@ -154,8 +154,8 @@ section{
 .home .slide .content::before{
     content: "";
     position: absolute;
-    width: 60rem;
-    padding-block: 2rem;
+    width: 100%;
+    padding: 2rem 3rem;
     height: 100%;
     top: 50%;
     left: 50%;
@@ -718,7 +718,9 @@ section{
     html{
         font-size: 50%;
     }
-
+    .header .logo img{
+        width: 170px;
+    }
     .home .slide .content{
         width: 30rem;
     }
