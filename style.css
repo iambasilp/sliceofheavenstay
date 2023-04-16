@@ -594,13 +594,15 @@ section{
 
 .footer .box-container .box a{
     font-size: 1.6rem;
-    display: block;
+    display:flex;
     color: var(--white);
     padding: 1rem 0;
+    align-items: center;
 }
 
 .footer .box-container .box a i{
     color: var(--primary);
+    margin-right: .5rem;
     padding-right: .5rem;
 }
 
@@ -728,5 +730,7 @@ section{
     .home .slide .content h3{
         font-size: 3rem;
     }
-
+    .footer .box-container{
+        grid-template-columns: 1fr;
+    }
 }
