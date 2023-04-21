@@ -242,7 +242,9 @@ section{
     align-items: center;
     gap: 6rem;
 }
-
+.about .about__img{
+    border-radius: 1rem;
+}
 .about .row .image{
     flex: 1 1 30rem;
 }
